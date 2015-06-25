@@ -9,5 +9,15 @@
     ],
     "require": {
         "components/jquery": "~1.10"
+    },
+    "extra": {
+        "component": {
+            "scripts": [
+                "source/jquery.fancybox.js"
+            ],
+            "files": [
+               "source/*"
+            ]
+        }
     }
 }
