@@ -16,7 +16,7 @@
                 "source/jquery.fancybox.js"
             ],
             "files": [
-               "source/*"
+               "source/**"
             ]
         }
     }
