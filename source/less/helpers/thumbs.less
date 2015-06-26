@@ -1,0 +1,57 @@
+@import '../variables.less';
+
+#fancybox-thumbs {
+	position: fixed;
+	left: 0;
+	width: 100%;
+	overflow: hidden;
+	z-index: @fb-zindex + 40;
+
+	&.bottom {
+		bottom: 2px;
+	}
+
+	&.top {
+		top: 2px;
+	}
+
+	ul {
+		position: relative;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+
+		li {
+			float: left;
+			padding: @fb-thumbs-padding;
+			opacity: @fb-thumbs-opactity;
+
+			&.active {
+				opacity: @fb-thumbs-active-opactity;
+				padding: 0;
+				border: @fb-thumbs-border;
+			}
+
+			&:hover {
+				opacity: @fb-thumbs-hover-opacity;
+			}
+
+			a {
+				display: block;
+				position: relative;
+				overflow: hidden;
+				border: @fb-thumbs-link-border;
+				background: @fb-thumbs-link-background-color;
+				outline: none;
+			}
+
+			img {
+				display: block;
+				position: relative;
+				border: 0;
+				padding: 0;
+				max-width: none;
+			}
+		}
+	}
+}
