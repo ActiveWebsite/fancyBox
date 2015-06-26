@@ -14,7 +14,7 @@
         "component": {
             "scripts": [
                 "source/jquery.fancybox.js",
-                "source/jquery.fancybox.pack.js",
+                "source/jquery.fancybox.pack.js"
             ],
             "files": [
                 "source/*.js",
