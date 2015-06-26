@@ -24,7 +24,7 @@
                 "source/less/*.less",
                 "source/less/helpers/*.less",
                 "source/helpers/*.js",
-                "source/helpers/*.css",
+                "source/helpers/*.css"
             ],
             "shim": {
                 "deps": ["jquery"]
