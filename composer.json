@@ -18,7 +18,7 @@
                 "source/*.png",
                 "source/less/*.less",
                 "source/less/helpers/*.less",
-                "source/helpers/*.js",
+                "source/helpers/*.js"
             ]
         }
     }
