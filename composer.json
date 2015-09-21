@@ -12,23 +12,14 @@
     },
     "extra": {
         "component": {
-            "scripts": [
-                "source/jquery.fancybox.js",
-                "source/jquery.fancybox.pack.js"
-            ],
             "files": [
                 "source/*.js",
-                "source/*.css",
                 "source/*.gif",
                 "source/*.png",
                 "source/less/*.less",
                 "source/less/helpers/*.less",
                 "source/helpers/*.js",
-                "source/helpers/*.css"
-            ],
-            "shim": {
-                "deps": ["jquery"]
-            }
+            ]
         }
     }
 }
