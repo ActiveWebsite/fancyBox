@@ -4,7 +4,7 @@
     "repositories": [
         {
             "type": "composer",
-            "url": "http://repo.booj.lan"
+            "url": "http://qa.stg.booj.com"
         }
     ],
     "require": {
